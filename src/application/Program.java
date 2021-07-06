@@ -41,7 +41,7 @@ public class Program {
 		System.out.println("Inserted! New id = " + newSeller.getId());
 		
 		System.out.println("\n--- TEST 2: seller UPDATE---");
-		seller = sellerDao.findById(11);
+		seller = sellerDao.findById(17);
 		seller.setName("Nepthur");
 		seller.setEmail("imamicrowave@gmail.com");
 		sellerDao.update(seller);
